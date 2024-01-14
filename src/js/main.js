@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
     "use strict";
 
     let modalState = {};
-    let deadline = '2024-02-29 00:00';
+    let deadline = '2024-05-31 00:00';
 
     changeModalState(modalState);
     modals();
@@ -20,4 +20,5 @@ window.addEventListener("DOMContentLoaded", () => {
     forms(modalState);
     timer('#timer', deadline);
     images();
+    
 });
